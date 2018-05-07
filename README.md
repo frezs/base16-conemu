@@ -2,7 +2,7 @@
 
 This is a [``template``](https://github.com/chriskempson/base16-templates-source) for base16 which supports [ConEmu](https://conemu.github.io/)
 
-See the [Base16 repository](https://github.com/chriskempson/base16) for more information.  
+See the [Base16 repository](https://github.com/chriskempson/base16) for more information.
 
 
 # Installation
@@ -31,7 +31,7 @@ Then restart ConEmu and activate the color theme in ConEmu Settings -> Features 
 ## Manually add color schemes and modify ConEmu.xml
 1. Open `ConEmu.xml`. Usually it is at  `~\AppData\Roaming`, where `~` is
    your home directory (`C:\Users\UserName`).
-2. Paste the color scheme at the end of palette settings part. It starts with 
+2. Paste the color scheme at the end of palette settings part. It starts with
    the following:
 ```xml
 <key name="Colors" modified="2015-03-19 13:53:09" build="150310">
@@ -79,7 +79,7 @@ Then restart ConEmu and activate the color theme in ConEmu Settings -> Features 
 Also, make sure that all the color options set to `Auto` to get correct
 highlighting:
 
-![color options](ConEmu_Color_Options.png)
+![color options](docs/ConEmu_Color_Options.png)
 
 
 ### Color mapping
@@ -93,7 +93,7 @@ To see the current colors, run this powershell snippet:
 
 Here's a screenshot for Base16 Twilight:
 
-![Base16 Twilight in ConEmu](conemu-twilight.png)
+![Base16 Twilight in ConEmu](docs/conemu-twilight.png)
 
 
 ### Attribution
