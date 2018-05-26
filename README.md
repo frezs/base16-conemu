@@ -15,14 +15,14 @@ There's two methods.
 
 ### To add a theme to your config file:
 ```ps1
-.\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Add -ThemePathOrName .\themes\base16-twilight.xml
+.\scripts\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Add -ThemePathOrName .\themes\base16-twilight.xml
 ```
 
 Then restart ConEmu and activate the color theme in ConEmu Settings -> Features -> Colors using the Schemes drop-down.
 
 ### To remove a theme from your config file:
 ```ps1
-.\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Remove -ThemePathOrName "Base16 Twilight"
+.\scripts\Install-ConEmuTheme.ps1 [-ConfigPath Path] -Operation Remove -ThemePathOrName "Base16 Twilight"
 ```
 
 - Note that `-ConfigPath` argument is optional if your `ConEmu.xml` is located
