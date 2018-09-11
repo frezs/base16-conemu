@@ -11,7 +11,7 @@
     <value name="TextColorIdx" type="hex" data="10"/>
     <value name="BackColorIdx" type="hex" data="10"/>
     <value name="PopTextColorIdx" type="hex" data="10"/>
-    <value name="PopBackColorIdx" type="hex" data="10"/>    
+    <value name="PopBackColorIdx" type="hex" data="10"/>
     <value name="ColorTable00" type="dword" data="00312c23"/>
     <value name="ColorTable01" type="dword" data="00794d48"/>
     <value name="ColorTable02" type="dword" data="00867923"/>
